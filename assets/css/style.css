@@ -12,7 +12,6 @@ body{
 }
 .vh-box{
   height: 100vh;
-  border: solid 5px red;
 }
 /* utility */
 .flex{
@@ -48,10 +47,22 @@ section{
   background-color: rgba(98, 98, 98, 0.5);
   padding: 4px 6px;
 }
+main .view-imp{
+  top:0;
+  right: 0;
+  }
+  .view-imp span{
+    margin-left: 4px;
+    padding: 4px 6px;
+    color: white;
+    background-color: rgba(98, 98, 98, 0.5);
+    font-size: 12px;
+    border-radius: 4px;
+  }
 /* footer */
 footer{
   color: white;
-  background-color: gray;
+  background-color: rgb(34,34,34);
   justify-content: space-between;
   text-align: center;
 }
@@ -76,7 +87,7 @@ footer i{
 }
 .foot-right{
   align-items: center;
-  background-color: black;
+  background-color: gray;
   padding-left: 20px;
   color: red;
 }
