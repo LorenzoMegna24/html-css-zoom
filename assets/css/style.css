@@ -45,3 +45,22 @@ section{
   background-color: rgba(0, 0, 0, 0.6);
   padding: 4px 6px;
 }
+/* footer */
+footer{
+  color: white;
+  background-color: gray;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+}
+footer i{
+  font-size: 20px;
+}
+.foot-center div,
+.foot-left div, 
+.foot-right div{
+  margin-right: 10px;
+}
+.shere-screen i{
+  color: rgb(14, 182, 14);
+}
