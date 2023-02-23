@@ -1,5 +1,37 @@
+/* reset */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.vh-box{
+  height: 100vh;
+  border: solid 5px red;
+}
+/* utility */
+.flex{
+  display: flex;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+/* main */
+.card{
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+}
+.etichetta{
+  bottom: 10px;
+  left: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 4px 6px;
 }
