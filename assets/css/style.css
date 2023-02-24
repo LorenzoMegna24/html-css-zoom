@@ -23,6 +23,12 @@ body{
 .absolute{
   position: absolute;
 }
+main{
+  height: 90%;
+}
+footer{
+  height: 10%;
+}
 /* main */
 section{
   justify-content: space-between;
