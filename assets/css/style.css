@@ -4,9 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-}
 body{
   background-color: black;
 }
@@ -28,6 +25,9 @@ main{
 }
 footer{
   height: 10%;
+}
+.overflow-auto{
+  overflow: auto;
 }
 /* main */
 section{
